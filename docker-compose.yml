@@ -20,10 +20,9 @@ services:
       - .env
     volumes:
       - ./wp-content:/var/www/html/wp-content
-      - ./share:/var/share
+      - ./share:/tmp/wordpress-test-technique
 
 volumes:
   db_data:
   wp-content:
   share:
-
