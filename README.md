@@ -1,6 +1,7 @@
 # Test Technique - Agence R2
 
 ## Utilisation
+
 1. Cloner le repository
 ```bash
 git clone https://github.com/nl1x/test-technique-r2
@@ -16,6 +17,9 @@ cd test-tecnique-r2 && sudo docker-compose up -d
 4. Importer l'archive localhost-20240701-190630-fssl21.wpress à l'aide de l'extension `All-In-One Migration`.
 > [!note]
 > En cas de problème d'importation dû à une limite d'upload limitée, suivez les explications ci-dessous.
+
+> [!important]
+> Le nom d'utilisateur de connexion à wordpress est `ttr2` et le mot de passe est `password`.
 
 ## En cas de problèmes d'importation
 
